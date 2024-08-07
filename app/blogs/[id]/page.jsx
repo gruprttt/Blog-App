@@ -7,6 +7,7 @@ import { assets } from '@/Assets/assets';
 import Link from 'next/link';
 import axios from 'axios';
 
+
 const page = ({params}) => {
 
     const [data,setData] = useState(null);
